@@ -8,11 +8,14 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
+http://localhost:8080
 ```
 
-### Compiles and minifies for production
+### Run graphQL Server
 ```
-npm run build
+cd server
+node index.js
+http://localhost:4000/graphql
 ```
 
 ### Run your tests
@@ -25,5 +28,5 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Reference
+See [Lachlan Miller](https://medium.com/@lachlanmiller_52885/graphql-basics-and-practical-examples-with-vue-6b649b9685e0).
