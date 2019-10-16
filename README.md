@@ -1,32 +1,22 @@
-# graphql-example
-
-## Project setup
+## Installation
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Quick Start
+Start the web: 
 ```
-npm run serve
-http://localhost:8080
+$ npm run serve
 ```
+View the website at: http://localhost:8080
 
-### Run graphQL Server
-```
-cd server
-node index.js
-http://localhost:4000/graphql
-```
+Start the server:
 
-### Run your tests
 ```
-npm run test
+$ node index.js
 ```
+View the website at: http://localhost:4000/graphql
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Reference
+## Reference
 See [Lachlan Miller](https://medium.com/@lachlanmiller_52885/graphql-basics-and-practical-examples-with-vue-6b649b9685e0).
